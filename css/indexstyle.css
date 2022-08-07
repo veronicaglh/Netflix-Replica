@@ -1,0 +1,183 @@
+/*Section One*/
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+    /* src: url(/fonts/NetflixSans-Medium.otf); */
+    /* font-family:"NetflixSans";  Font used for the body */
+    src: url(/fonts/NetflixSans-Regular.otf);
+    font-family:"NetflixSans";  /*Font used for the body */
+
+}
+
+body{
+    background-color: #222222;
+    font-family: "NetflixSans";
+    color: #FFFFFF;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 26px;
+}
+
+.SectionOne {
+    /* border: 1px #ccc solid; */
+    /* width: 2000px ; */
+    height: 1125px;
+    background-image: url("/images/NetflixBackgroundImage.jpeg") /*no-repeat center center/cover*/;
+    width: 100%;
+	height: 97vh;
+    position: relative;
+	
+    
+    /* opacity: 0.91; */
+    /* position: relative;
+    top:0px;
+    left: 0px; */
+    /* filter: contrast(95%);
+    filter: saturation(150%); */
+}
+
+.SectionOne::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 80px 60px 100px #000000, inset -80px -60px 100px #000000;
+}
+
+.Logo{
+    /* height: 36px;
+    width: 134px; */
+ 
+    max-height: 170px;
+    max-width: 170px;
+    /* padding: 8px 0 0 0; */
+    /* position: absolute; */
+    padding: 8px 0 0 0;
+    filter: contrast(120%);
+    position: relative;
+    z-index: 2;
+    margin-left: 50px;
+ 
+}
+.SectionOne button{
+    /* height: 20px;
+    width: 50.1875; */ 
+    margin: 8px 0 0 0;
+    padding: 7px 17px 7px 17px;
+    background-color: #e50914;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 3px;
+    float: right;
+    display: block;
+    text-align: start;
+    margin-right: 50px;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    font-weight: 600;
+
+
+}
+
+
+.SectionOne h1{
+    /* position: absolute; */
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 3em;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 55px;
+    padding: 16px;
+ 
+}
+.SectionOne h2{
+    /* position: absolute; */
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: 400;
+    
+    
+    /* margin-bottom: 100px; */
+}
+
+.SectionOne p{
+    /* position: absolute; */
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 19.2px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.emailForm{
+    height: 55px;
+    width: 450px;
+    padding: 10px 10px 0px 10px;
+    min-width: 450px;
+    margin: auto;
+    display: block;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-radius: 2px 0px 0px 2px;
+    border: 0.5px #222222 solid;
+}
+
+.emailForm::placeholder { 
+    font-weight: 550;
+}
+
+.GetStarted{
+    border: 0.5px #222222 solid;
+    text-align:left;
+    height: 55px;
+    width: 225px;
+    padding: 0px 26px 0px 26px;
+    /* min-height: 60px; */
+    /* min-width: 74px; */
+    background-color: #E30813;
+    color: #FFFFFF;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -55px;
+    margin-right: 342px;
+    font-size: 26px;
+    font-weight: 550;
+    border-radius: 0px 2px 2px 0px;
+
+}
+.GetStarted::placeholder { 
+    color: #FFFFFF;
+}
