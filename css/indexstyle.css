@@ -156,3 +156,41 @@ h2{
 .GetStarted::placeholder { 
     color: #FFFFFF;
 }
+
+/******************************************************************************************************************/
+
+/***Section 2*****/
+.SectionTwo{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 35px 55px 60px;
+}
+
+.TVAnimation{
+    float: right; 
+}
+
+.SectionTwo h1{
+    font-size: 55px;
+    line-height: 50px;
+    margin: 25px;
+    text-align: start;
+    margin-top: 130px;
+    margin-left: 125px ;
+    font-weight: 500;
+}
+.SectionTwo h2{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px;
+    text-align: start;
+    margin-left: 125px ;
+    font-weight: 400;
+}
+.SectionTwo img{
+    margin-top: -350px;
+    max-height: 640px;
+    max-width: 480px;
+    margin-right: 60px;
+}
