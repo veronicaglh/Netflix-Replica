@@ -194,3 +194,44 @@ h2{
     max-width: 480px;
     margin-right: 60px;
 }
+
+
+/******************************************************************************************************************/
+
+/***Section 3*****/
+.SectionThree{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 35px 55px 60px;
+}
+
+.SectionThree h1{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 50px;
+    margin: 25px;
+    text-align: start;
+    margin-top: 80px; 
+   margin-right: 100px ;
+    float: right;
+    display: block;
+  
+}
+
+.SectionThree h2{
+    font-weight: 400;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    float: right;
+    margin-top: -150px;
+    margin-right: 150px ; 
+}
+
+.SectionThree img{
+    max-height: 640px;
+    max-width: 480px; 
+    margin-left: 0px;
+
+}
