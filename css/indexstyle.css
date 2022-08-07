@@ -235,3 +235,32 @@ h2{
     margin-left: 0px;
 
 }
+
+/******************************************************************************************************************/
+
+/***Section Four*****/
+.SectionFour{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 15px 35px 40px;
+}
+
+.SectionFour h1{
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 500;
+    margin: 25px;
+    text-align: start;
+    margin-top: 48px;
+    margin-left: 120px ;
+}
+.SectionFour h2{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 400;
+    margin: 25px;
+    text-align: start;
+    margin-left: 120px ;
+}
+
