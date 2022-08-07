@@ -302,4 +302,85 @@ h2{
 
 }
 
+/******************************************************************************************************************/
+
+/***Section Six*****/
+.SectionSix{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 25px 45px 50px;
+}
+
+.SectionSix h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 55px;
+    padding: 52px;
+}
+
+.SectionSix div{ 
+    padding: 25px;
+    height: 75px;
+    width:815px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #303030;
+    margin-top: 9px; 
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.SectionSix_p{
+    text-align: center;
+    font-size: 19.2px;
+    line-height: normal;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.SectionSix_emailForm{
+    height: 60px;
+    width: 450px;
+    padding: 10px 10px 0px 10px;
+    min-width: 450px;
+    margin: auto;
+    display: block;
+    text-align: left;
+    position: relative;
+    font-size: 16px;
+    margin-left: 290px;
+    margin-top: 20px;
+    border-radius: 2px 0px 0px 2px;
+    border: 0.5px #222222 solid;
+
+}
+
+.SectionSix_emailForm::placeholder { 
+    font-weight: 550;
+}
+
+.SectionSix_GetStarted{
+    border: 0.5px #222222 solid;
+    text-align:left;
+    height: 60px;
+    width: 232px;
+    padding: 0px 26px 0px 26px;
+    background-color: #E30813;
+    color: #FFFFFF;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 312px;
+    font-size: 26px;
+    border-radius: 0px 2px 2px 0px;
+
+}
+
+.SectionSix_GetStarted::placeholder { 
+    color: #FFFFFF;
+}
+
 
