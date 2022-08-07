@@ -264,3 +264,42 @@ h2{
     margin-left: 120px ;
 }
 
+/******************************************************************************************************************/
+
+/***Section 5*****/
+.SectionFive{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 35px 55px 60px;
+}
+
+.SectionFive h1{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 50px;
+    margin: 25px;
+    text-align: start;
+    margin-top: 80px; 
+   margin-right: 0px ;
+    float: right;
+    display: block;
+  
+}
+.SectionFive h2{
+    font-weight: 400;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    float: right;
+    margin-top: -190px;
+    margin-right: 80px ;
+}
+.SectionFive img{
+    max-height: 640px;
+    max-width: 480px; 
+    margin-left: 100px;
+
+}
+
+
