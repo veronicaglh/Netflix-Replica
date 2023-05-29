@@ -1,0 +1,2 @@
+###### This repository is a clone of Netflix's website. The original website can be accessed here: https://www.netflix.com
+###### Don't want to clone this repo? You can view the output here: https://drive.google.com/file/d/1Ebxb4McG7ZyiOeY_3QtWwgLKZz_Grkgp/view?usp=share_link
